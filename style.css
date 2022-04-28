@@ -33,3 +33,23 @@ p{
 img{
     width: 100%;
 }
+
+.navbar{
+    background:#047aed;
+    color: #fff;
+    height: 70px;
+}
+
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
