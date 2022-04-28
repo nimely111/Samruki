@@ -40,10 +40,24 @@ img{
     height: 70px;
 }
 
-.container{
+.navbar .flex{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    padding: 0 15px;
+}
+.container{
     max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
