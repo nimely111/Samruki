@@ -107,6 +107,10 @@ img{
     font-size: 16px;
 }
 
+.showcase-form input{
+    outline: none;
+}
+
 /* Utilities */
 .container{
     max-width: 1100px;
