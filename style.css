@@ -82,6 +82,16 @@ img{
 .showcase .grid{
     grid-template-columns: 55% 45%;
     gap: 30px;
+    overflow: visible;
+}
+
+.showcase-form{
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+    z-index: 100%;
 }
 
 /* Utilities */
@@ -115,5 +125,5 @@ img{
     justify-content: center;
     align-items: center;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
