@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Lato:wght@300&display=swap');
+:root{
+    --primary-color: #047aed;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -35,7 +38,7 @@ img{
 }
 /* navbar */
 .navbar{
-    background:#047aed;
+    background: var(--primary-color);
     color: #fff;
     height: 70px;
 }
@@ -60,9 +63,8 @@ img{
 
 /* Showcase */
 .showcase{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr 1fr;
+    background-color: var(--primary-color);
+    height: 400px;
 }
 
 /* Utilities */
