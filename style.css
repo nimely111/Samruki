@@ -94,6 +94,11 @@ img{
     z-index: 100%;
 }
 
+.showcase-form .form-control{
+    margin: 30px 0;
+}
+
+
 /* Utilities */
 .container{
     max-width: 1100px;
