@@ -65,6 +65,8 @@ img{
 .showcase{
     background-color: var(--primary-color);
     height: 400px;
+    color: #fff;
+    position: relative;
 }
 
 /* Utilities */
