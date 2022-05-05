@@ -138,6 +138,11 @@ img{
     border-radius: 5px;
 }
 
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
 .flex{
     display: flex;
     justify-content: center;
