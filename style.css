@@ -61,12 +61,6 @@ img{
     border-bottom: 2px #fff solid;
 }
 
-.card{
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
 /* Showcase */
 .showcase{
     background-color: var(--primary-color);
@@ -96,6 +90,15 @@ img{
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.card{
+    background: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
 }
 
 .flex{
