@@ -79,6 +79,10 @@ img{
 }
 
 
+.showcase .grid{
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
 
 /* Utilities */
 .container{
