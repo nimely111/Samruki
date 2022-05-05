@@ -143,6 +143,9 @@ img{
     border: 1px solid #fff;
 }
 
+.btn:hover{
+    transform: scale(0.98);
+}
 .flex{
     display: flex;
     justify-content: center;
